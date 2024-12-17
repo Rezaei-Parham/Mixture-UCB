@@ -39,3 +39,17 @@ optimal_alphas = calculate_optimal_mixture(
 
 print("Optimal Mixture Coefficients:", optimal_alphas)
 ```
+
+## Linear and Quadratic Terms
+
+For evaluating linear and quadratic terms, you can use metrics like **KID**, **RKE**, or an approximation of **FID**. For the linear term, metrics such as **Precision** and **Recall** are also available.  
+
+### Suggested Implementations  
+We recommend the following repositories for implementing these metrics:  
+
+- **[KID (Kernel Inception Distance)](https://github.com/abdulfatir/gan-metrics-pytorch)**  
+- **[FID (Fréchet Inception Distance)](https://github.com/mseitzer/pytorch-fid)**  
+- **[Precision and Recall](https://github.com/clovaai/generative-evaluation-prdc)**  
+- **[RKE (Renyi Kernel Estimator)](https://github.com/Rezaei-Parham/RKE)**  
+  - This implementation, which offers parallel processing for the kernel, is needed due to the involvement of large datasets.  
+
