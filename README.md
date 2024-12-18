@@ -50,6 +50,6 @@ We recommend the following repositories for implementing these metrics:
 - **[KID (Kernel Inception Distance)](https://github.com/abdulfatir/gan-metrics-pytorch)**  
 - **[FID (Fréchet Inception Distance)](https://github.com/mseitzer/pytorch-fid)**  
 - **[Precision and Recall](https://github.com/clovaai/generative-evaluation-prdc)**  
-- **[RKE (Renyi Kernel Estimator)](https://github.com/Rezaei-Parham/RKE)**  
+- **[RKE (Renyi Kernel Entropy)](https://github.com/Rezaei-Parham/RKE)**  
   - This implementation, which offers parallel processing for the kernel, is needed due to the involvement of large datasets.  
 
