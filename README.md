@@ -54,8 +54,7 @@ We recommend the following repositories for implementing these metrics:
   - This implementation, which offers parallel processing for the kernel, is needed due to the involvement of large datasets.  
 
 ## Online Mixture
-Coming Soon...
-
+Follow the comments in the code. A more cleaned version suitable for using as a black box will be added soon.
 
 ## Cite our work
 ```text
