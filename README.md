@@ -58,13 +58,9 @@ Follow the comments in the code. A more cleaned version suitable for using as a 
 
 ## Cite our work
 ```text
-@misc{rezaei2024diversediverseonlineselection,
-      title={Be More Diverse than the Most Diverse: Online Selection of Diverse Mixtures of Generative Models}, 
-      author={Parham Rezaei and Farzan Farnia and Cheuk Ting Li},
-      year={2024},
-      eprint={2412.17622},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.17622}, 
+@inproceedings{rezaeimore,
+  title={Be More Diverse than the Most Diverse: Online Selection of Diverse Mixtures of Generative Models},
+  author={Rezaei, Parham and Farnia, Farzan and Li, Cheuk Ting},
+  booktitle={The Thirteenth International Conference on Learning Representations}
 }
 ```
