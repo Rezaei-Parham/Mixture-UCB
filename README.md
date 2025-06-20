@@ -58,9 +58,12 @@ Follow the comments in the code. A more cleaned version suitable for using as a 
 
 ## Cite our work
 ```text
-@inproceedings{rezaeimore,
-  title={Be More Diverse than the Most Diverse: Online Selection of Diverse Mixtures of Generative Models},
-  author={Rezaei, Parham and Farnia, Farzan and Li, Cheuk Ting},
-  booktitle={The Thirteenth International Conference on Learning Representations}
+@inproceedings{
+rezaei2025be,
+title={Be More Diverse than the Most Diverse: Optimal Mixtures of Generative Models via Mixture-{UCB} Bandit Algorithms},
+author={Parham Rezaei and Farzan Farnia and Cheuk Ting Li},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=2Chkk5Ye2s}
 }
 ```
