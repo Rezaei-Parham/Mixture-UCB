@@ -1,4 +1,4 @@
-# Be More Diverse Than The Most Diverse: Online Selection of Diverse Mixtures of Generative Models
+# BE MORE DIVERSE THAN THE MOST DIVERSE: OPTIMAL MIXTURES OF GENERATIVE MODELS VIA MIXTURE-UCB BANDIT ALGORITHMS
 This repository contains the codebase for the paper [Be More Diverse than the Most Diverse](https://arxiv.org/abs/2412.17622). The script demonstrates how to find the optimal mixture in an offline and online manner to choose the optimal mixture of several generative models.
 
 ## Abstract
