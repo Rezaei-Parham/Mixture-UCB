@@ -18,7 +18,7 @@ Example code as follows:
 import numpy as np
 from offline_mixture import calculate_optimal_mixture, calculate_rke, calculate_precision
 
-# Generate random normal distribution as generated and real data
+# random normal distribution as generated and real data
 models = {
         "model_0": np.random.normal(loc=0.1, scale=1, size=(200,5)),
         "model_1": np.random.normal(loc=-0.5, scale=1, size=(200,5)),
@@ -26,7 +26,7 @@ models = {
     }
 real_data = np.random.normal(loc=0, scale=0.3, size=(200, 5))
 
-# Calculate optimal mixture
+# optimal mixture
 optimal_alphas = calculate_optimal_mixture(
     models,
     quadratic_calculator=calculate_rke,
